@@ -1,0 +1,103 @@
+!!! 5
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Jade Bootstrap Examples
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    link(href='/css/bootstrap.css', rel='stylesheet')
+    style(type='text/css')
+      body {
+      padding-top: 20px;
+      padding-bottom: 40px;
+      }
+      /* Custom container */
+      .container-narrow {
+      margin: 0 auto;
+      max-width: 700px;
+      }
+      .container-narrow > hr {
+      margin: 30px 0;
+      }
+      /* Main marketing message and sign up button */
+      .jumbotron {
+      margin: 60px 0;
+      text-align: center;
+      }
+      .jumbotron h1 {
+      font-size: 72px;
+      line-height: 1;
+      }
+      .jumbotron .btn {
+      font-size: 21px;
+      padding: 14px 24px;
+      }
+      /* Supporting marketing content */
+      .marketing {
+      margin: 60px 0;
+      }
+      .marketing p + h4 {
+      margin-top: 28px;
+      }
+    link(href='/css/bootstrap-responsive.css', rel='stylesheet')
+    link(rel='apple-touch-icon-precomposed', sizes='144x144', href='/ico/apple-touch-icon-144-precomposed.png')
+    link(rel='apple-touch-icon-precomposed', sizes='114x114', href='/ico/apple-touch-icon-114-precomposed.png')
+    link(rel='apple-touch-icon-precomposed', sizes='72x72', href='/ico/apple-touch-icon-72-precomposed.png')
+    link(rel='apple-touch-icon-precomposed', href='/ico/apple-touch-icon-57-precomposed.png')
+    link(rel='shortcut icon', href='/ico/favicon.png')
+  body
+    .container-narrow
+      .masthead
+        ul.nav.nav-pills.pull-right
+          li.active
+            a(href='#') home
+          li
+            a(href='http://twitter.com/timjreynolds') twitter
+          li
+            a(href='http://github.com/timReynolds') github
+        h3.muted Jade Bootstrap Examples
+      hr
+      .jumbotron
+        h1 Bootstrap examples, in Jade!
+        p.lead
+          | The Bootstrap 2.2.2 examples translated into Jade and instantly ready to view with Express
+        a.btn.btn-large.btn-success(href='#') Source on Github
+      hr
+      .row-fluid.marketing
+        .span6
+          h4 Starter template
+          <img src="http://twitter.github.com/bootstrap/assets/img/examples/bootstrap-example-starter.jpg" alt="">
+          p
+            | A barebones HTML document with all the Bootstrap CSS and JavaScript included. &nbsp;
+            a(href='/starter') View&gt;&gt;
+          h4 Fluid layout
+          <img src="http://twitter.github.com/bootstrap/assets/img/examples/bootstrap-example-fluid.jpg" alt="">
+          p
+            | Uses our new responsive, fluid grid system to create a seamless liquid layout. &nbsp;
+            a(href='/fluid') View&gt;&gt;
+          h4 Sign in
+          <img src="http://twitter.github.com/bootstrap/assets/img/examples/bootstrap-example-signin.png" alt="">
+          p
+            | Barebones sign in form with custom, larger form controls and a flexible layout. &nbsp;
+            a(href='/signin') View&gt;&gt;
+        .span6
+          h4 Basic marketing site
+          <img src="http://twitter.github.com/bootstrap/assets/img/examples/bootstrap-example-hero.jpg" alt="">
+          p
+            | Featuring a hero unit for a primary message and three supporting elements. &nbsp;
+            a(href='/marketing') View&gt;&gt;
+          h4 Narrow marketing
+          <img src="http://twitter.github.com/bootstrap/assets/img/examples/bootstrap-example-marketing-narrow.png" alt="">
+          p
+            | Slim, lightweight marketing template for small projects or teams. &nbsp;
+            a(href='/narrow') View&gt;&gt;
+          h4 Sticky footer
+          <img src="http://twitter.github.com/bootstrap/assets/img/examples/bootstrap-example-sticky-footer.png" alt="">
+          p
+            | Pin a fixed-height footer to the bottom of the user's viewport. &nbsp;
+            a(href='/sticky') View&gt;&gt;
+      hr
+      .footer
+        p © Company 2012
+  include partials/scripts

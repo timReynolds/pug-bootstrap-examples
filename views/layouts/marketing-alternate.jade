@@ -1,0 +1,127 @@
+!!! 5
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Template · Bootstrap
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    link(href='/css/bootstrap.css', rel='stylesheet')
+    style(type='text/css')
+      body {
+      padding-top: 20px;
+      padding-bottom: 60px;
+      }
+      /* Custom container */
+      .container {
+      margin: 0 auto;
+      max-width: 1000px;
+      }
+      .container > hr {
+      margin: 60px 0;
+      }
+      /* Main marketing message and sign up button */
+      .jumbotron {
+      margin: 80px 0;
+      text-align: center;
+      }
+      .jumbotron h1 {
+      font-size: 100px;
+      line-height: 1;
+      }
+      .jumbotron .lead {
+      font-size: 24px;
+      line-height: 1.25;
+      }
+      .jumbotron .btn {
+      font-size: 21px;
+      padding: 14px 24px;
+      }
+      /* Supporting marketing content */
+      .marketing {
+      margin: 60px 0;
+      }
+      .marketing p + h4 {
+      margin-top: 28px;
+      }
+      /* Customize the navbar links to be fill the entire space of the .navbar */
+      .navbar .navbar-inner {
+      padding: 0;
+      }
+      .navbar .nav {
+      margin: 0;
+      }
+      .navbar .nav li {
+      display: table-cell;
+      width: 1%;
+      float: none;
+      }
+      .navbar .nav li a {
+      font-weight: bold;
+      text-align: center;
+      border-left: 1px solid rgba(255,255,255,.75);
+      border-right: 1px solid rgba(0,0,0,.1);
+      }
+      .navbar .nav li:first-child a {
+      border-left: 0;
+      border-radius: 3px 0 0 3px;
+      }
+      .navbar .nav li:last-child a {
+      border-right: 0;
+      border-radius: 0 3px 3px 0;
+      }
+    link(href='/css/bootstrap-responsive.css', rel='stylesheet')
+    link(rel='apple-touch-icon-precomposed', sizes='144x144', href='/ico/apple-touch-icon-144-precomposed.png')
+    link(rel='apple-touch-icon-precomposed', sizes='114x114', href='/ico/apple-touch-icon-114-precomposed.png')
+    link(rel='apple-touch-icon-precomposed', sizes='72x72', href='/ico/apple-touch-icon-72-precomposed.png')
+    link(rel='apple-touch-icon-precomposed', href='/ico/apple-touch-icon-57-precomposed.png')
+    link(rel='shortcut icon', href='/ico/favicon.png')
+  body
+    .container
+      .masthead
+        h3.muted Project name
+        .navbar
+          .navbar-inner
+            .container
+              ul.nav
+                li.active
+                  a(href='#') Home
+                li
+                  a(href='#') Projects
+                li
+                  a(href='#') Services
+                li
+                  a(href='#') Downloads
+                li
+                  a(href='#') About
+                li
+                  a(href='#') Contact
+      .jumbotron
+        h1 Marketing stuff!
+        p.lead
+          | Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+        a.btn.btn-large.btn-success(href='#') Get started today
+      hr
+      .row-fluid
+        .span4
+          h2 Heading
+          p
+            | Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+          p
+            a.btn(href='#') View details »
+        .span4
+          h2 Heading
+          p
+            | Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+          p
+            a.btn(href='#') View details »
+        .span4
+          h2 Heading
+          p
+            | Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
+          p
+            a.btn(href='#') View details »
+      hr
+      .footer
+        p © Company 2012
+  include ../partials/scripts
