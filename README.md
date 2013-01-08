@@ -1,5 +1,5 @@
 # Jade Bootstrap Examples
-  The bootstrap examples converted to Jade 
+  Bootstrap examples converted into Jade templates including a node server for rendering
 
 ## Installation
   1. Clone repo 
