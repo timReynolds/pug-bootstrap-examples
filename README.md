@@ -1,5 +1,5 @@
-# Jade Bootstrap Examples
-  Bootstrap examples converted into Jade templates including a node server for rendering
+# Pug Bootstrap Examples
+  Bootstrap examples converted into Pug templates including a node server for rendering
 
 ## Installation
   1. Clone repo 
