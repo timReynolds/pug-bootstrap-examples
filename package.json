@@ -6,9 +6,10 @@
     "start": "node app"
   },
   "dependencies": {
-    "express": "4.16.4",
+    "express": "4.17.1",
     "morgan": "^1.9.1",
-    "pug": "^2.0.3",
+    "npm-check-updates": "^4.0.1",
+    "pug": "^2.0.4",
     "serve-favicon": "^2.5.0"
   }
 }
