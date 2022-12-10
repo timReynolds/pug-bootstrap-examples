@@ -6,7 +6,7 @@
     "start": "node app"
   },
   "dependencies": {
-    "express": "4.17.1",
+    "express": "4.17.3",
     "morgan": "^1.9.1",
     "npm-check-updates": "^4.0.1",
     "pug": "^2.0.4",
